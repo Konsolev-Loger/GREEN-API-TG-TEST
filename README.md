@@ -7,13 +7,6 @@ npm ci
 npm run dev
 ```
 
-```bash
-npm test          # тесты API-контракта, состояния чатов и очереди
-npm run build    # строгая проверка TypeScript и production-сборка
-npm run preview  # просмотр production-сборки
-```
-
-
 ## Подготовка GREEN-API
 1. В [личном кабинете](https://console.green-api.com/) создайте инстанс **Telegram** и авторизуйте свой Telegram-аккаунт по инструкции сервиса. Это пользовательский аккаунт через GREEN-API, не Bot API и не токен BotFather.
 2. Дождитесь состояния `authorized`.
